@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		378EE8FC27CA52B400A14B58 /* Atm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378EE8FB27CA52B400A14B58 /* Atm.swift */; };
+		378EE8FE27CBBE9500A14B58 /* CoinZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378EE8FD27CBBE9500A14B58 /* CoinZero.swift */; };
 		37B2838327C1F2AF004FE4C1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2838227C1F2AF004FE4C1 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		378EE8FB27CA52B400A14B58 /* Atm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atm.swift; sourceTree = "<group>"; };
+		378EE8FD27CBBE9500A14B58 /* CoinZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinZero.swift; sourceTree = "<group>"; };
 		37B2837F27C1F2AF004FE4C1 /* BackJun */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BackJun; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B2838227C1F2AF004FE4C1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +63,7 @@
 			children = (
 				37B2838227C1F2AF004FE4C1 /* main.swift */,
 				378EE8FB27CA52B400A14B58 /* Atm.swift */,
+				378EE8FD27CBBE9500A14B58 /* CoinZero.swift */,
 			);
 			path = BackJun;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				378EE8FC27CA52B400A14B58 /* Atm.swift in Sources */,
+				378EE8FE27CBBE9500A14B58 /* CoinZero.swift in Sources */,
 				37B2838327C1F2AF004FE4C1 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
