@@ -4,3 +4,5 @@
 
 //print(conference()) //회의실 배정 완료 2022-02-28
 
+//print(treasure()) //보물 완료 2022-03-01
+
