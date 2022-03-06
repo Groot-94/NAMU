@@ -15,3 +15,5 @@
 //print(microwave()) // 전자레인지 2022-03-05
 
 //print(sum()) // 수들의 합 2022-03-06
+
+//print(gasStation()) // 주유소 2022-03-07
