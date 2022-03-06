@@ -15,6 +15,7 @@
 		37AB8CAB27D0807300439B84 /* Changes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AB8CAA27D0807300439B84 /* Changes.swift */; };
 		37AB8CAD27D252D200439B84 /* Rope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AB8CAC27D252D200439B84 /* Rope.swift */; };
 		37AB8CAF27D3871E00439B84 /* Microwave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AB8CAE27D3871E00439B84 /* Microwave.swift */; };
+		37AB8CB127D47ABC00439B84 /* Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AB8CB027D47ABC00439B84 /* Sum.swift */; };
 		37B2838327C1F2AF004FE4C1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2838227C1F2AF004FE4C1 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		37AB8CAA27D0807300439B84 /* Changes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Changes.swift; sourceTree = "<group>"; };
 		37AB8CAC27D252D200439B84 /* Rope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rope.swift; sourceTree = "<group>"; };
 		37AB8CAE27D3871E00439B84 /* Microwave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Microwave.swift; sourceTree = "<group>"; };
+		37AB8CB027D47ABC00439B84 /* Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sum.swift; sourceTree = "<group>"; };
 		37B2837F27C1F2AF004FE4C1 /* BackJun */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BackJun; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B2838227C1F2AF004FE4C1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +84,7 @@
 				37AB8CAA27D0807300439B84 /* Changes.swift */,
 				37AB8CAC27D252D200439B84 /* Rope.swift */,
 				37AB8CAE27D3871E00439B84 /* Microwave.swift */,
+				37AB8CB027D47ABC00439B84 /* Sum.swift */,
 			);
 			path = BackJun;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				37B2838327C1F2AF004FE4C1 /* main.swift in Sources */,
 				37AB8CA927CF07F700439B84 /* Lost.swift in Sources */,
 				378EE90027CCB50500A14B58 /* Conference.swift in Sources */,
+				37AB8CB127D47ABC00439B84 /* Sum.swift in Sources */,
 				37AB8CAF27D3871E00439B84 /* Microwave.swift in Sources */,
 				37AB8CAD27D252D200439B84 /* Rope.swift in Sources */,
 				37AB8CAB27D0807300439B84 /* Changes.swift in Sources */,
