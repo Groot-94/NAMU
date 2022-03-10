@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		378E4E7827D97FE1007DBACE /* While.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E4E7727D97FE1007DBACE /* While.swift */; };
 		378EE8FC27CA52B400A14B58 /* Atm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378EE8FB27CA52B400A14B58 /* Atm.swift */; };
 		378EE8FE27CBBE9500A14B58 /* CoinZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378EE8FD27CBBE9500A14B58 /* CoinZero.swift */; };
 		378EE90027CCB50500A14B58 /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378EE8FF27CCB50500A14B58 /* Conference.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		378E4E7727D97FE1007DBACE /* While.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = While.swift; sourceTree = "<group>"; };
 		378EE8FB27CA52B400A14B58 /* Atm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atm.swift; sourceTree = "<group>"; };
 		378EE8FD27CBBE9500A14B58 /* CoinZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinZero.swift; sourceTree = "<group>"; };
 		378EE8FF27CCB50500A14B58 /* Conference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conference.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				37AB8CAE27D3871E00439B84 /* Microwave.swift */,
 				37AB8CB027D47ABC00439B84 /* Sum.swift */,
 				37AB8CB227D5803500439B84 /* GasStation.swift */,
+				378E4E7727D97FE1007DBACE /* While.swift */,
 			);
 			path = BackJun;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				378EE8FC27CA52B400A14B58 /* Atm.swift in Sources */,
 				378EE8FE27CBBE9500A14B58 /* CoinZero.swift in Sources */,
 				37AB8CB327D5803500439B84 /* GasStation.swift in Sources */,
+				378E4E7827D97FE1007DBACE /* While.swift in Sources */,
 				37B2838327C1F2AF004FE4C1 /* main.swift in Sources */,
 				37AB8CA927CF07F700439B84 /* Lost.swift in Sources */,
 				378EE90027CCB50500A14B58 /* Conference.swift in Sources */,
