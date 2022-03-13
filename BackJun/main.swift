@@ -19,3 +19,8 @@
 //print(gasStation()) // 주유소 2022-03-07
 
 //printMinMax() 배열의 최솟값 최댓값 2022-03-11
+
+//maxIndex() 최댓값 2022-03-12
+
+//countNumber() 숫자의 개수 2022-03-13
+
