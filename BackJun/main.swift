@@ -1,6 +1,5 @@
+import Foundation
 //print(Atm()) //Atm 완료 2022-02-26
-
-import Darwin
 
 //print(zeroCoin()) //동전 0 완료 2022-02-27
 
@@ -30,4 +29,7 @@ import Darwin
 
 //averege() 평균 2022-03-15
 
-//oxQuiz() ox 퀴즈
+//oxQuiz() ox 퀴즈 2022-03-16
+
+//everegeUp() 평균은 넘겠지 2022-03-17
+
