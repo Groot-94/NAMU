@@ -33,3 +33,13 @@ import Foundation
 
 //everegeUp() 평균은 넘겠지 2022-03-17
 
+//var n = [Int]()
+//for num in 1...10000 {
+//    n.append(selfNumber(num))
+//}
+//for num in 1...10000 {
+//    if !n.contains(num) {
+//        print(num)
+//    }
+//}
+// 셀프넘버 2022-03-18
