@@ -43,3 +43,5 @@ import Foundation
 //    }
 //}
 // 셀프넘버 2022-03-18 수정
+
+hanNumber(Int(readLine()!)!)
