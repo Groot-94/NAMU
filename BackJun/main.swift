@@ -45,3 +45,5 @@ import Foundation
 // 셀프넘버 2022-03-18 수정
 
 //hanNumber(Int(readLine()!)!) 한수 2022-03-19
+
+//Ascii() 유니코드 변환 2022-03-20
