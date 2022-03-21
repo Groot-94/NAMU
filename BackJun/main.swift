@@ -47,3 +47,5 @@ import Foundation
 //hanNumber(Int(readLine()!)!) 한수 2022-03-19
 
 //Ascii() 유니코드 변환 2022-03-20
+
+//stringSum() 숫자의 합 2022-03-21

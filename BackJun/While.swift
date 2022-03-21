@@ -37,20 +37,20 @@ import Foundation
  7
  */
 
-//func sumNumber() {
-//    var test = [Int]()
-//    var result = [Int]()
-//    while 3 > test.count {
-//        test = (readLine()!.split(separator: " ").map({Int($0)!}))
-//        if test[0] == 0 && test[1] == 0 {
-//            break
-//        }
-//        result.append(test[0] + test[1])
-//    }
-//    for i in result {
-//        print(i)
-//    }
-//}
+func sumNumber() {
+    var test = [Int]()
+    var result = [Int]()
+    while 3 > test.count {
+        test = (readLine()!.split(separator: " ").map({Int($0)!}))
+        if test[0] == 0 && test[1] == 0 {
+            break
+        }
+        result.append(test[0] + test[1])
+    }
+    for i in result {
+        print(i)
+    }
+}
 //
 //sumNumber()
 
