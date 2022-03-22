@@ -35,7 +35,7 @@ func Ascii() {
  */
 
 func stringSum() {
-    let n = Int(readLine()!)!
+    _ = Int(readLine()!)!
     let k = readLine()
     var result = [Int]()
     
@@ -43,4 +43,24 @@ func stringSum() {
         result.append(Int(String(num))!)
     }
     print(result.reduce(0, +))
+}
+
+func alphabetFind() {
+    let n = readLine()
+    var count = 1
+    let alphabetArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+    var countArray = [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+    for str in n ?? "" {
+        for number in 0..<alphabetArray.count {
+            if String(str) == alphabetArray[number] && countArray[number] == -1 {
+                countArray[number] += count
+                count += 1
+            } else if String(str) == alphabetArray[number] && countArray[number] != -1 {
+                count += 1
+            }
+        }
+    }
+    for num in countArray {
+        print(num, terminator:  " ")
+    }
 }
