@@ -50,4 +50,6 @@ import Foundation
 
 //stringSum() 숫자의 합 2022-03-21
 
-alphabetFind()
+//alphabetFind() 알파벳 찾기 2022-03-22
+
+//stringRepeat() 문자열 반복 2022-03-23
