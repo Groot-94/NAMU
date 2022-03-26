@@ -56,4 +56,6 @@ import Foundation
 
 //alphabetStudy() 알파벳  공부 2022-03-24
 
-wordCount()
+//wordCount() 단어 세기 2022-03-25
+
+//sangsu() 상수 2022-03-26
