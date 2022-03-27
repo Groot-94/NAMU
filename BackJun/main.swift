@@ -59,3 +59,5 @@ import Foundation
 //wordCount() 단어 세기 2022-03-25
 
 //sangsu() 상수 2022-03-26
+
+//pressTheDial() 다이얼 2022-03-27
