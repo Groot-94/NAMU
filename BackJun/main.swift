@@ -67,3 +67,5 @@ import Foundation
 //groupAlpabet() 그룹 단어 체커 2022-03-29
 
 //breakEvenPoint() 손익분기점 2022-03-30
+
+//honeycomb() 벌집 2022-03-31
