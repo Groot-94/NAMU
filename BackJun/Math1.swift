@@ -62,3 +62,55 @@ func honeycomb() {
     }
     print(result)
 }
+
+/*
+ 무한히 큰 배열에 다음과 같이 분수들이 적혀있다.
+ 
+ 1/1    1/2    1/3    1/4    1/5    …
+ 2/1    2/2    2/3    2/4    …    …
+ 3/1    3/2    3/3    …    …    …
+ 4/1    4/2    …    …    …    …
+ 5/1    …    …    …    …    …
+ …    …    …    …    …    …
+ 이와 같이 나열된 분수들을 1/1 → 1/2 → 2/1 → 3/1 → 2/2 → … 과 같은 지그재그 순서로 차례대로 1번, 2번, 3번, 4번, 5번, … 분수라고 하자.
+
+ X가 주어졌을 때, X번째 분수를 구하는 프로그램을 작성하시오.
+
+ 입력
+ 첫째 줄에 X(1 ≤ X ≤ 10,000,000)가 주어진다.
+
+ 출력
+ 첫째 줄에 분수를 출력한다.
+ */
+
+//1, 2, 4, 7, 11
+//  1  2  3  4
+
+//  1 3 6 10
+
+func fountainFind() {
+    let X = Int(readLine()!)!
+    var sum = 0 // 전체 구간의 개수의 합
+    var count = 1 // 구하고자하는 구간의 합
+    var arr: [String] = []
+
+    for i in 1...X {
+        sum += i
+        count += 1
+        if sum >= X {
+            break
+        }
+    }
+
+    if count % 2 == 0 {
+        for j in 1..<count {
+            arr.append("\(count - j)/\(j)")
+        }
+    }else {
+        for j in 1..<count {
+            arr.append("\(j)/\(count - j)")
+        }
+    }
+    let index = arr.count - (sum - X) - 1
+    print("\(arr[index])")
+}
