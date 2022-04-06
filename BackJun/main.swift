@@ -75,3 +75,5 @@ import Foundation
 //upSnail() 달팽이는 올라가고 싶다 2022-04-04
 
 //ACMHotel() ACM 호텔 2022-04-05
+
+//womenIsPresident() 부녀회장이 될테야 2022-04-06
