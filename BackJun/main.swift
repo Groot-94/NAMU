@@ -79,3 +79,5 @@ import Foundation
 //womenIsPresident() 부녀회장이 될테야 2022-04-06
 
 //bigSum() 큰 수 A + B 2022-04-07
+
+//findDecimal() 소수찾기 2022-04-08
