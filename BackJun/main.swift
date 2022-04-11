@@ -81,3 +81,5 @@ import Foundation
 //bigSum() 큰 수 A + B 2022-04-07
 
 //findDecimal() 소수찾기 2022-04-08
+
+//findDecimalArray() 소수 2022-04-11
