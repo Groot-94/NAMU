@@ -93,3 +93,66 @@ func findDecimalArray() {
         print(-1)
     }
 }
+
+/*
+ 소인수분해
+ 문제
+ 정수 N이 주어졌을 때, 소인수분해하는 프로그램을 작성하시오.
+
+ 입력
+ 첫째 줄에 정수 N (1 ≤ N ≤ 10,000,000)이 주어진다.
+
+ 출력
+ N의 소인수분해 결과를 한 줄에 하나씩 오름차순으로 출력한다. N이 1인 경우 아무것도 출력하지 않는다.
+ */
+
+func printFactorization() {
+    var n = Int(readLine()!)!
+    var count = 2
+    
+    if n != 1 {
+        while n != 1 {
+            if n%count == 0 {
+                n = n/count
+                print(count)
+                count = 2
+            } else {
+                count += 1
+            }
+        }
+    }
+}
+
+/*
+ 소수 구하기(에라토스테네의 체)
+ 문제
+ M이상 N이하의 소수를 모두 출력하는 프로그램을 작성하시오.
+
+ 입력
+ 첫째 줄에 자연수 M과 N이 빈 칸을 사이에 두고 주어진다. (1 ≤ M ≤ N ≤ 1,000,000) M이상 N이하의 소수가 하나 이상 있는 입력만 주어진다.
+
+ 출력
+ 한 줄에 하나씩, 증가하는 순서대로 소수를 출력한다.
+ */
+
+func useSieveOfEratosthenes() {
+    let k = readLine()!.split(separator: " ").map{Int($0)!}
+    var n = [Int]()
+    
+    for i in k[0]...k[1] {
+        if i != 1{
+            n.append(i)
+        }
+    }
+    
+    if k[1] >= 4 {
+        for i in 2...Int(sqrt(Double(k[1]))) {
+            n = n.filter{ $0 == i || $0 % i != 0 }
+        }
+    }
+    
+    for i in n {
+        print(i)
+    }
+}
+

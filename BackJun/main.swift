@@ -1,4 +1,5 @@
 import Foundation
+
 //print(Atm()) //Atm 완료 2022-02-26
 
 //print(zeroCoin()) //동전 0 완료 2022-02-27
@@ -83,3 +84,7 @@ import Foundation
 //findDecimal() 소수찾기 2022-04-08
 
 //findDecimalArray() 소수 2022-04-11
+
+//printFactorization() 소인수분해 2022-04-12
+
+//useSieveOfEratosthenes() 소수 찾기(에라토스테네스의 체) 2022-04-13
