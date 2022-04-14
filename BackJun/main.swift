@@ -88,3 +88,5 @@ import Foundation
 //printFactorization() 소인수분해 2022-04-12
 
 //useSieveOfEratosthenes() 소수 찾기(에라토스테네스의 체) 2022-04-13
+
+//findDecimalV2() 베르트랑 공존 시간초과 2022-04-14
