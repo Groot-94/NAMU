@@ -268,3 +268,66 @@ func escapeFromRectangle() {
     
     print(n.min()!)
 }
+
+/*
+ 문제
+ 세 점이 주어졌을 때, 축에 평행한 직사각형을 만들기 위해서 필요한 네 번째 점을 찾는 프로그램을 작성하시오.
+
+ 입력
+ 세 점의 좌표가 한 줄에 하나씩 주어진다. 좌표는 1보다 크거나 같고, 1000보다 작거나 같은 정수이다.
+
+ 출력
+ 직사각형의 네 번째 점의 좌표를 출력한다.
+ */
+
+func findFourthPoint() {
+    let firstDot = readLine()!.split(separator: " ").map{Int($0)!}
+    let secondDot = readLine()!.split(separator: " ").map{Int($0)!}
+    let thirdDot = readLine()!.split(separator: " ").map{Int($0)!}
+    var result = [Int]()
+
+    for i in 0...1 {
+        if firstDot[i] == secondDot[i] {
+            result.append(thirdDot[i])
+        } else if firstDot[i] == thirdDot[i] {
+            result.append(secondDot[i])
+        } else if secondDot[i] == thirdDot[i] {
+            result.append(firstDot[i])
+        }
+    }
+
+    print("\(result[0]) \(result[1])")
+}
+
+/*
+ 문제
+ 과거 이집트인들은 각 변들의 길이가 3, 4, 5인 삼각형이 직각 삼각형인것을 알아냈다. 주어진 세변의 길이로 삼각형이 직각인지 아닌지 구분하시오.
+
+ 입력
+ 입력은 여러개의 테스트케이스로 주어지며 마지막줄에는 0 0 0이 입력된다. 각 테스트케이스는 모두 30,000보다 작은 양의 정수로 주어지며, 각 입력은 변의 길이를 의미한다.
+
+ 출력
+ 각 입력에 대해 직각 삼각형이 맞다면 "right", 아니라면 "wrong"을 출력한다.
+ */
+
+func usePythagoreanTheorem() {
+    var input = [Int]()
+    var result = 0
+    while true {
+        input = readLine()!.split(separator: " ").compactMap{Int($0)}
+        
+        if input[0] == 0, input[1] == 0, input[2] == 0 {
+            break
+        }
+        
+        input.sort()
+        
+        result = (input[0] * input[0]) + (input[1] * input[1]) - (input[2] * input[2])
+        
+        if result == 0 {
+            print("right")
+        } else {
+            print("wrong")
+        }
+    }
+}

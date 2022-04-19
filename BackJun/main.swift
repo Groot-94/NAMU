@@ -94,3 +94,7 @@ import Foundation
 //geussOfGoldbach() 골드바흐의 추측 2022-04-16
 
 //escapeFromRectangle() 직사각형에서 탈출 2022-04-17
+
+//findFourthPoint() // 네번 째 점 2022-04-18
+
+//usePythagoreanTheorem() 직각삼각형 2022-04-19
