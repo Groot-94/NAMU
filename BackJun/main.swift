@@ -98,3 +98,7 @@ import Foundation
 //findFourthPoint() // 네번 째 점 2022-04-18
 
 //usePythagoreanTheorem() 직각삼각형 2022-04-19
+
+//userTaxiGeometry() 택시 기하학 2022-04-20
+
+//findMarinToTurret() // 터렛 2022-04-21 복습필요
