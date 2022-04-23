@@ -102,3 +102,9 @@ import Foundation
 //userTaxiGeometry() 택시 기하학 2022-04-20
 
 //findMarinToTurret() // 터렛 2022-04-21 복습필요
+
+//let n = Int(readLine()!)!
+//print(factorial_recur(n: n)) // 팩토리얼 2022-04-23
+
+//let n = Int(readLine()!)!
+//print(fibonachi_recur(n: n)) // 피보나치 2022-04-23
