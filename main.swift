@@ -108,3 +108,7 @@ import Foundation
 
 //let n = Int(readLine()!)!
 //print(fibonachi_recur(n: n)) // 피보나치 2022-04-23
+
+//let n = Int(readLine()!)!
+//print("어느 한 컴퓨터공학과 학생이 유명한 교수님을 찾아가 물었다.")
+//printAnswer(n: n, s: "") // 재귀함수가 뭔가요? 2022-05-09
