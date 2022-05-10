@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		373625B7281194F1002826E1 /* Recursive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373625B6281194F1002826E1 /* Recursive.swift */; };
+		3786B459282A7F60005524BF /* BruteForce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3786B458282A7F60005524BF /* BruteForce.swift */; };
 		378B109527E4A583007F7973 /* Func.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378B109427E4A583007F7973 /* Func.swift */; };
 		378E4E7827D97FE1007DBACE /* While.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E4E7727D97FE1007DBACE /* While.swift */; };
 		378E4E7E27DAC941007DBACE /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E4E7D27DAC941007DBACE /* Array.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		373625B6281194F1002826E1 /* Recursive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursive.swift; sourceTree = "<group>"; };
+		3786B458282A7F60005524BF /* BruteForce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruteForce.swift; sourceTree = "<group>"; };
 		378B109427E4A583007F7973 /* Func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Func.swift; sourceTree = "<group>"; };
 		378E4E7727D97FE1007DBACE /* While.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = While.swift; sourceTree = "<group>"; };
 		378E4E7D27DAC941007DBACE /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				37A07E1C27E6F5F700C1495E /* String.swift */,
 				37F8FD2027F357CC00B0A8D1 /* Math1.swift */,
 				37D1B77127FFB71B00CD3689 /* Math2.swift */,
+				3786B458282A7F60005524BF /* BruteForce.swift */,
 			);
 			path = BackJun;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			files = (
 				378EE8FC27CA52B400A14B58 /* Atm.swift in Sources */,
 				37F8FD2127F357CC00B0A8D1 /* Math1.swift in Sources */,
+				3786B459282A7F60005524BF /* BruteForce.swift in Sources */,
 				378EE8FE27CBBE9500A14B58 /* CoinZero.swift in Sources */,
 				37AB8CB327D5803500439B84 /* GasStation.swift in Sources */,
 				378B109527E4A583007F7973 /* Func.swift in Sources */,
