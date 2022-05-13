@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		373625B7281194F1002826E1 /* Recursive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373625B6281194F1002826E1 /* Recursive.swift */; };
 		3786B459282A7F60005524BF /* BruteForce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3786B458282A7F60005524BF /* BruteForce.swift */; };
+		3786B4A1282EABBE005524BF /* Bronze5_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3786B4A0282EABBE005524BF /* Bronze5_1.swift */; };
 		378B109527E4A583007F7973 /* Func.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378B109427E4A583007F7973 /* Func.swift */; };
 		378E4E7827D97FE1007DBACE /* While.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E4E7727D97FE1007DBACE /* While.swift */; };
 		378E4E7E27DAC941007DBACE /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E4E7D27DAC941007DBACE /* Array.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		373625B6281194F1002826E1 /* Recursive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursive.swift; sourceTree = "<group>"; };
 		3786B458282A7F60005524BF /* BruteForce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruteForce.swift; sourceTree = "<group>"; };
+		3786B4A0282EABBE005524BF /* Bronze5_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bronze5_1.swift; sourceTree = "<group>"; };
 		378B109427E4A583007F7973 /* Func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Func.swift; sourceTree = "<group>"; };
 		378E4E7727D97FE1007DBACE /* While.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = While.swift; sourceTree = "<group>"; };
 		378E4E7D27DAC941007DBACE /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
@@ -74,6 +76,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3786B49D282EAAE5005524BF /* Bronze5 */ = {
+			isa = PBXGroup;
+			children = (
+				3786B4A0282EABBE005524BF /* Bronze5_1.swift */,
+			);
+			path = Bronze5;
+			sourceTree = "<group>";
+		};
+		3786B49E282EAB4F005524BF /* Greedy */ = {
+			isa = PBXGroup;
+			children = (
+				378EE8FB27CA52B400A14B58 /* Atm.swift */,
+				378EE8FD27CBBE9500A14B58 /* CoinZero.swift */,
+				378EE8FF27CCB50500A14B58 /* Conference.swift */,
+				37AB8CA627CD8CAF00439B84 /* Treasure.swift */,
+				37AB8CA827CF07F700439B84 /* Lost.swift */,
+				37AB8CAA27D0807300439B84 /* Changes.swift */,
+				37AB8CAC27D252D200439B84 /* Rope.swift */,
+				37AB8CAE27D3871E00439B84 /* Microwave.swift */,
+				37AB8CB027D47ABC00439B84 /* Sum.swift */,
+				37AB8CB227D5803500439B84 /* GasStation.swift */,
+			);
+			path = Greedy;
+			sourceTree = "<group>";
+		};
+		3786B49F282EAB83005524BF /*  StepByStep */ = {
+			isa = PBXGroup;
+			children = (
+				378E4E7D27DAC941007DBACE /* Array.swift */,
+				378B109427E4A583007F7973 /* Func.swift */,
+				37A07E1C27E6F5F700C1495E /* String.swift */,
+				378E4E7727D97FE1007DBACE /* While.swift */,
+				37F8FD2027F357CC00B0A8D1 /* Math1.swift */,
+				37D1B77127FFB71B00CD3689 /* Math2.swift */,
+				373625B6281194F1002826E1 /* Recursive.swift */,
+				3786B458282A7F60005524BF /* BruteForce.swift */,
+			);
+			path = " StepByStep";
+			sourceTree = "<group>";
+		};
 		37B2837627C1F2AF004FE4C1 = {
 			isa = PBXGroup;
 			children = (
@@ -94,24 +136,9 @@
 		37B2838127C1F2AF004FE4C1 /* BackJun */ = {
 			isa = PBXGroup;
 			children = (
-				373625B6281194F1002826E1 /* Recursive.swift */,
-				378EE8FB27CA52B400A14B58 /* Atm.swift */,
-				378EE8FD27CBBE9500A14B58 /* CoinZero.swift */,
-				378EE8FF27CCB50500A14B58 /* Conference.swift */,
-				37AB8CA627CD8CAF00439B84 /* Treasure.swift */,
-				37AB8CA827CF07F700439B84 /* Lost.swift */,
-				37AB8CAA27D0807300439B84 /* Changes.swift */,
-				37AB8CAC27D252D200439B84 /* Rope.swift */,
-				37AB8CAE27D3871E00439B84 /* Microwave.swift */,
-				37AB8CB027D47ABC00439B84 /* Sum.swift */,
-				37AB8CB227D5803500439B84 /* GasStation.swift */,
-				378E4E7727D97FE1007DBACE /* While.swift */,
-				378E4E7D27DAC941007DBACE /* Array.swift */,
-				378B109427E4A583007F7973 /* Func.swift */,
-				37A07E1C27E6F5F700C1495E /* String.swift */,
-				37F8FD2027F357CC00B0A8D1 /* Math1.swift */,
-				37D1B77127FFB71B00CD3689 /* Math2.swift */,
-				3786B458282A7F60005524BF /* BruteForce.swift */,
+				3786B49E282EAB4F005524BF /* Greedy */,
+				3786B49F282EAB83005524BF /*  StepByStep */,
+				3786B49D282EAAE5005524BF /* Bronze5 */,
 			);
 			path = BackJun;
 			sourceTree = "<group>";
@@ -182,6 +209,7 @@
 				378B109527E4A583007F7973 /* Func.swift in Sources */,
 				378E4E7827D97FE1007DBACE /* While.swift in Sources */,
 				37A07E1D27E6F5F700C1495E /* String.swift in Sources */,
+				3786B4A1282EABBE005524BF /* Bronze5_1.swift in Sources */,
 				37B2838327C1F2AF004FE4C1 /* main.swift in Sources */,
 				37AB8CA927CF07F700439B84 /* Lost.swift in Sources */,
 				378EE90027CCB50500A14B58 /* Conference.swift in Sources */,

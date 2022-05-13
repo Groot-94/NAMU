@@ -114,3 +114,5 @@ import Foundation
 //printAnswer(n: n, s: "") // 재귀함수가 뭔가요? 2022-05-09
 
 //blackJack() // 블랙잭 2022-05-10
+
+hexadecimal()
